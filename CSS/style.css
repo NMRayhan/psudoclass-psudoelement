@@ -1,3 +1,6 @@
+body{
+    position: relative;
+}
 h1:nth-child(2n+1){
     color: aquamarine;
 }
@@ -32,9 +35,6 @@ a:link {
 a:visited {
     color: green;
 }
-a:hover {
-    color: hotpink;
-}
 a:active {
     color: blue;
 }
@@ -45,4 +45,16 @@ a{
 }
 li{
     list-style: none;
+}
+
+p.intro::first-letter {
+    color: #ff0000;
+    font-size: 200%;
+} 
+a:hover::before{
+    content: '';
+    border-top: 20px solid #fb0101;
+    border-bottom: none;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
 }
