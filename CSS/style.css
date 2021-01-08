@@ -1,0 +1,48 @@
+h1:nth-child(2n+1){
+    color: aquamarine;
+}
+h1:nth-child(2){
+    color: brown;
+}
+input:focus{
+    background-color: chartreuse;
+    border: none;
+    color: darkslateblue;
+    font-size: large;
+}
+button{
+    background-image: linear-gradient(to right, rgb(189, 87, 87) , rgb(104, 104, 7),rgb(216, 77, 77));
+    width: 100px;
+    height: 50px;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: white;
+}
+button:hover{
+    background-image: linear-gradient(to right, rgb(255, 0, 0) , rgb(255, 255, 0),rgb(255, 0, 0));
+    color: black;
+    cursor: pointer;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+}
