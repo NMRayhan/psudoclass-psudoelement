@@ -66,3 +66,29 @@ p::before{
 p::after{
     content: "❤️";
 }
+
+/* Position Doc */
+div{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0px;
+    background-color: grey;
+    font-size: 20px;
+    text-align: center;
+    color: honeydew;
+}
+.sixth{
+    position: fixed;
+    left: 90px;
+}
+.second{
+    position: relative;
+    background-color: hotpink;
+    left: 100px;
+    top: 0px;
+}
+.third{
+    background-color: maroon;
+    position: absolute;
+    left: 100px;
+}
