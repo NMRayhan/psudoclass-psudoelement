@@ -63,3 +63,6 @@ p::before{
     counter-increment: section;
     content: "Crush " counter(section) " : ";
 }
+p::after{
+    content: "❤️";
+}
