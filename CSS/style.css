@@ -1,5 +1,6 @@
 body{
     position: relative;
+    counter-reset: section;
 }
 h1:nth-child(2n+1){
     color: aquamarine;
@@ -57,4 +58,8 @@ a:hover::before{
     border-bottom: none;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
+}
+p::before{
+    counter-increment: section;
+    content: "Crush " counter(section) " : ";
 }
